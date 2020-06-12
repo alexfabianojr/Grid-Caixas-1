@@ -1,0 +1,49 @@
+html, body {
+    margin: 10px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+.container {
+    display: grid;
+    grid-template-columns: repeat(4, auto); /*auto auto auto auto || 1fr 1fr 1fr 1fr*/
+    grid-template-rows: 10vh;
+    grid-gap: 10px; /*espacamento entre as celulas*/
+}
+
+.caixa {
+    height: 10vh;
+    background: red;
+    border: 2px solid black;
+}
+
+/*POSICAO*/
+#caixa-01 { grid-column: 1/3; }
+#caixa-05 { grid-column: 2/4; }
+#caixa-08 { grid-column: 1/5; }
+#caixa-15 { grid-row: 3/4; }
+
+/*VOLUME*/
+#caixa-14 { padding: 20px;}
+
+/*CORES*/
+#caixa-01 { background: yellow; }
+#caixa-02 { background: blue; }
+#caixa-03 { background: aquamarine; }
+#caixa-04 { background: black; }
+#caixa-05 { background: coral; }
+#caixa-06 { background: darkkhaki; }
+#caixa-07 { background: blueviolet; }
+#caixa-08 { background: chartreuse; }
+#caixa-09 { background: chocolate; }
+#caixa-10 { background: deeppink; }
+#caixa-11 { background: indigo; }
+#caixa-12 { background: powderblue; }
+#caixa-13 { background: royalblue; }
+#caixa-14 { background: tomato; }
+#caixa-15 { background: red; }
+#caixa-16 { background: rebeccapurple; }
+#caixa-17 { background: navy; }
+#caixa-18 { background: steelblue; }
+#caixa-19 { background: brown; }
+#caixa-20 { background: darkslategrey; }
